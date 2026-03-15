@@ -2,6 +2,11 @@
 
 Before understanding how HTTPS works, it is very important to understand the terminology and the concept behind it. 
 
+#### Facts:
+1. Any message encrypted with Ramesh's public key can only be decrypted with Ramesh private key.
+2. Anyone access to Ramesh's public key can verify that a message could only have been created by someone with access to Rmaeh's private key.
+3. Private key can always derive the public key. Public key can never derive the private key — mathematically impossible
+
 | Term | Full form | What it does | Secure? | Status |
 |------|-----------|--------------|---------|--------|
 | HTTP | HyperText Transfer Protocol | Transfers data between browser and server | No — plain text | Still used |
